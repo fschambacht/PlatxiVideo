@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #AB88FF;
+}
+
+.header {
+    width: 100vmax;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 6rem;
+    padding: 1rem;
+    align-self: center;    
+}
+
+.header__menu {
+    text-align: center;
+}
+
+.header__menu--options {
+    list-style: none;
+    text-align: right;
+}
