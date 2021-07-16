@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlatziVideo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header class="header">
         <img class="header__logo" src="./img/logo-platzi-video-BW2.png" alt="logo-platzi-video-BW2">
         <div class="header__menu">
             <div class="header__menu--profile">
-                <img src="./img/icons8-usuario-masculino-en-círculo-50.png" alt="icon-usser">
-                <p>Perfil</p>
+                <img src="./img/outline_account_circle_white_24dp.png" alt="icon-usser">
+                <p>Perfil</p>        
             </div>
             <ul class="header__menu--options">
                 <li><a href="">Cuenta</a></li>
@@ -21,5 +24,27 @@
             </ul>
         </div>
     </header>
+    <section class="search">
+        <h2 class="search__title">¿Qué quieres ver hoy?</h2>
+        <input class="search__input" type="search" name="Buscador" placeholder="Buscar...">
+    </section>
+    <main class="carousel">
+        <section class="carousel__container">
+            <div class="carousel-item">
+                <img src="./img/18966503.jpg" alt="">
+                <p>title</p>
+                <p>description</p>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/2207.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/36525.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/pexels-jonathan-faria-2220316.jpg" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
