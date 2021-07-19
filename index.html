@@ -13,14 +13,14 @@
 <body>
     <header class="header">
         <img class="header__logo" src="./img/logo-platzi-video-BW2.png" alt="logo-platzi-video-BW2">
-        <div class="header__menu">
-            <div class="header__menu--profile">
-                <img src="./img/outline_account_circle_white_24dp.png" alt="icon-usser">
-                <p>Perfil</p>        
+        <div class="header__menu-container">
+            <div class="header__profile-container">
+                <img class="header__profile-icon" src="./img/outline_account_circle_white_24dp.png" alt="icon-usser">
+                <p class="header__profile-text">Perfil</p>        
             </div>
-            <ul class="header__menu--options">
-                <li><a href="">Cuenta</a></li>
-                <li><a href="">Cerrar sesión</a></li>
+            <ul class="header__profile-menu">
+                <li><a class="header__menu-option" href="">Cuenta</a></li>
+                <li><a class="header__menu-option" href="">Cerrar sesión</a></li>
             </ul>
         </div>
     </header>
@@ -29,20 +29,140 @@
         <input class="search__input" type="search" name="Buscador" placeholder="Buscar...">
     </section>
     <main class="carousel">
+        <p class="carousel__title">Mi lista</p>
         <section class="carousel__container">
-            <div class="carousel-item">
-                <img src="./img/18966503.jpg" alt="">
-                <p>title</p>
-                <p>description</p>
+            <div class="carousel__item carousel__item--img1">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <div class="carousel__item-text">
+                    <p class="carousel__item-title">title</p>
+                    <p class="carousel__item-description">description</p>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./img/2207.jpg" alt="">
+            <div class="carousel__item carousel__item--img2">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
             </div>
-            <div class="carousel-item">
-                <img src="./img/36525.jpg" alt="">
+            <div class="carousel__item carousel__item--img3">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
             </div>
-            <div class="carousel-item">
-                <img src="./img/pexels-jonathan-faria-2220316.jpg" alt="">
+            <div class="carousel__item carousel__item--img4">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img1">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img2">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img3">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img4">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+        </section>
+        <p class="carousel__title">Tendencias</p>
+        <section class="carousel__container">
+            <div class="carousel__item carousel__item--img1">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img2">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img3">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img4">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img1">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img2">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img3">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
+            </div>
+            <div class="carousel__item carousel__item--img4">
+                <div class="carousel__icon-container">
+                    <button class="carousel__item-icon carousel__item-icon--play"></button>
+                    <button class="carousel__item-icon carousel__item-icon--plus"></button>
+                </div>
+                <p class="carousel__item-title">title</p>
+                <p class="carousel__item-description">description</p>
             </div>
         </section>
     </main>
