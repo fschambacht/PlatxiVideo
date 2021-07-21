@@ -27,14 +27,14 @@ body {
     align-self: center;    
 }
 
-.login {
+.register {
     display: flex;
     justify-content: center;
     width: 100%;
     height: fit-content;
 }
 
-.login-card {
+.register-card {
     border: solid 0.2rem white;
     width: 50rem;
     height: 60rem;
@@ -46,20 +46,20 @@ body {
     align-items: center;
 }
 
-.login__title {
+.register__title {
     align-self: baseline;
-    margin: 5rem 10rem;
+    margin: 10rem 0rem 0rem 10rem;
     font-size: 2.5rem;
 }
 
-.login__form {
+.register__form {
     display: flex;
     flex-direction: column;
     margin: 2rem 0rem;
     width: 60%;
 }
 
-.login__input {
+.register__input {
     background: none;
     border: none;
     margin-bottom: 1rem;
@@ -69,7 +69,7 @@ body {
     outline: none;
 }
 
-.login__button-form {
+.register__button-form {
     color: white;
     background: rgba(255,255,255,0.2);
     padding: 1.5rem 0rem;
@@ -79,73 +79,18 @@ body {
     cursor:pointer;
 }
 
-.login__button-form:hover {
+.register__button-form:hover {
     background: rgba(255,255,255,0.5);
 }
 
-.login__checkbox-form {
-    display: flex;
-    justify-content: space-between;
+.register__login-link {
+    margin-bottom: 8rem;
     font-size: 1.2rem;
-    margin: 2rem 0rem;
-}
-
-.login__checkbox-container {
-    display: flex;
-}
-
-.login__text-checkbox {
-    padding-left: 0.2rem;    
-}
-
-.login__forgot-password {
-    text-decoration: none;
-    color: white;
-}
-
-.login__forgot-password:hover {
-    text-decoration: underline;
-}
-
-.login__oauth {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 10rem;
-    width: fit-content;
-    align-self: flex-start;
-}
-
-.login__img-oauth {
-    height: 2rem;
-    width: 2rem;
-    margin-right: 1rem;
-}
-
-.login__text-oauth {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    padding: 1rem 0rem;
-}
-
-.login__text-oauth:hover {
-    text-decoration: underline;
-}
-
-.login__register {
-    margin: 3rem 10rem; 
-    font-size: 1.2rem;
-    align-self: baseline;
-}
-
-.login__link-register {
     color: white;
     text-decoration: none;
 }
 
-.login__link-register:hover {
+.register__login-link:hover {
     text-decoration: underline;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,29 +12,34 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="./img/logo-platzi-video-BW2.png" alt="logo-platzi-video-BW2">
+        <a href="./index.html"><img class="header__logo" src="./img/logo-platzi-video-BW2.png" alt="logo-platzi-video-BW2"></a>
     </header>
     <main class="login">
         <section class="login-card">
-            <h2>Inicia sesión</h2>
-            <form action="">
-                <input type="email" name="" placeholder="Correo">
-                <input type="password" name="" placeholder="Contraseña">
-                <button type="submit"></button>
-                <p><input type="checkbox" name="" id="">Recuérdame</p>
-                <a href="">Olvidé mi contraseña</a>
+            <h2 class="login__title">Inicia sesión</h2>
+            <form class="login__form" >
+                <input class="login__input login__email-form" type="email" placeholder="Correo">
+                <input class="login__input login__password-form" type="password" placeholder="Contraseña">
+                <button class="login__button-form" type="submit">Iniciar sesión</button>
+                <div class="login__checkbox-form">
+                    <div class="login__checkbox-container">
+                        <input class="login__checkbox" type="checkbox">
+                        <p class="login__text-checkbox">Recuérdame</p>
+                    </div>
+                    <a class="login__forgot-password" href="/">Olvidé mi contraseña</a>
+                </div>
             </form>
-            <div>
-                <a href=""><i>G</i>Inicia sesión con Google</a>
-                <a href=""><i>T</i>Inicia sesión con Twitter</a>
+            <div class="login__oauth">
+                <a class="login__text-oauth" href="/"><img class="login__img-oauth" src="./img/icons8-logo-de-google-480.png" alt="icon google">Inicia sesión con Google</a>
+                <a class="login__text-oauth" href=""><img class="login__img-oauth" src="./img/icons8-twitter-480.png" alt="icon Twitter">Inicia sesión con Twitter</a>
             </div>
-            <p>No tienes ninguna cuenta <a href="">Regístrate</a></p>
+            <p class="login__register">No tienes ninguna cuenta <a class="login__link-register" href="./register.html">Regístrate</a></p>
         </section>
     </main>
     <footer class="footer">
-        <a href="">Terminos de uso</a>
-        <a href="">Declaración de privacidad</a>
-        <a href="">Centro de ayuda</a>
+        <a class="footer__text footer__text--terms" href="/">Terminos de uso</a>
+        <a class="footer__text footer__text--privacy" href="/">Declaración de privacidad</a>
+        <a class="footer__text footer__text--help" href="/">Centro de ayuda</a>
     </footer>
 </body>
 </html>
