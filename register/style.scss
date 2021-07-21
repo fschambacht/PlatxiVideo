@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(180deg, #50CB93, #54436B);
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 8rem;
+    padding: 1rem;
+    align-self: center;    
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.register-card {
+    border: solid 0.2rem white;
+    width: 50rem;
+    height: 60rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 5rem 0.5rem rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register__title {
+    align-self: baseline;
+    margin: 10rem 0rem 0rem 10rem;
+    font-size: 2.5rem;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    width: 60%;
+}
+
+.register__input {
+    background: none;
+    border: none;
+    margin-bottom: 1rem;
+    color: white;
+    border-bottom: 0.1rem solid white;
+    padding: 1rem;
+    outline: none;
+}
+
+.register__button-form {
+    color: white;
+    background: rgba(255,255,255,0.2);
+    padding: 1.5rem 0rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem 0rem;
+    cursor:pointer;
+}
+
+.register__button-form:hover {
+    background: rgba(255,255,255,0.5);
+}
+
+.register__login-link {
+    margin-bottom: 8rem;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.register__login-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.footer__text:hover {
+    text-decoration: underline;
+}
