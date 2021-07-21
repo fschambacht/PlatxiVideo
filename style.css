@@ -14,10 +14,10 @@ body {
 }
 
 :root {
-    --url-img1: url(./img/18966503.jpg);
-    --url-img2: url(./img/2207.jpg);
-    --url-img3: url(./img/36525.jpg);
-    --url-img4: url(./img/pexels-jonathan-faria-2220316.jpg);
+    --url-img1: url(./assets/18966503.jpg);
+    --url-img2: url(./assets/2207.jpg);
+    --url-img3: url(./assets/36525.jpg);
+    --url-img4: url(./assets/pexels-jonathan-faria-2220316.jpg);
 }
 
 .header {
@@ -208,9 +208,27 @@ body {
 }
 
 .carousel__item-icon--play {
-    background-image: url(./img/baseline_play_arrow_white_24dp.png);
+    background-image: url(./assets/baseline_play_arrow_white_24dp.png);
 }
 
 .carousel__item-icon--plus {
-    background-image: url(./img/baseline_add_white_24dp.png);
+    background-image: url(./assets/baseline_add_white_24dp.png);
+}
+
+.footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.footer__text:hover {
+    text-decoration: underline;
 }
